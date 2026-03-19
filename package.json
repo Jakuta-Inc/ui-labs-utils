@@ -43,9 +43,11 @@
   ],
   "license": "MIT",
   "main": "src/init.lua",
-  "name": "@rbxts/ui-labs",
+  "name": "@ojagamez/ui-labs",
+  "private": false,
   "publishConfig": {
-    "access": "public"
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "serve": "rojo serve test/default.project.json",
